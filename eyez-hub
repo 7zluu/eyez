@@ -11,7 +11,7 @@ local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 
 local player = Players.LocalPlayer or Players.PlayerAdded:Wait()
-local webhook = "https://discord.com/api/webhooks/1553065064901386341/nV-zUqMiTim0yIS1_Fjv6CW-jRuBTLo0B_sfR3nfe8OghRK-R_vxVoY8j3bAFp6KLDpk"
+local webhook = ""
 
 local executor = "Unknown"
 pcall(function()
